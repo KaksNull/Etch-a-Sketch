@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    width: 800px;
+    border: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+
+}
+
+.grid {
+    background-color: white;
+
+}
+
+.black {
+    background-color: black;
+}
+
+button {
+    height: 200px;
+    width: 300px;
+    font-size: 24px;
+    font-weight: 800;
+}
