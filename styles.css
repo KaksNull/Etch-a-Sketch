@@ -12,14 +12,15 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: gray;
 
 }
 
 .container {
     margin: 0;
     padding: 0;
-    height: 800px;
-    width: 800px;
+    height: 640px;
+    width: 640px;
     border: 0;
     display: flex;
     flex-wrap: wrap;
@@ -33,13 +34,58 @@ body {
 
 }
 
-.black {
+.default {
     background-color: black;
 }
 
-button {
+.White {
+    background-color: white;
+}
+
+.Blue {
+    background-color: blue;
+    
+}
+
+.Black {
+    background-color: black;
+    color: white;
+}
+
+.create {
     height: 200px;
     width: 300px;
     font-size: 24px;
     font-weight: 800;
+}
+
+.Green {
+    background-color: green;
+}
+
+.Yellow {
+    background-color: yellow;
+}
+
+.Red {
+    background-color: red;
+}
+
+.slidecontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider {
+
+}
+
+.info {
+    font-size: 30px;
+    text-align: center;
+}
+
+.colours {
+    display: flex;
+    justify-content: space-between;
 }
